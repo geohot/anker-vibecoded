@@ -42,7 +42,6 @@ async def info_command(args):
     charger = AnkerCharger(devices[0].address)
 
     try:
-        print(f"Connecting to {devices[0].address}...")
         await charger.connect()
         await charger.perform_handshake()
 
@@ -68,7 +67,6 @@ async def status_command(args):
     charger = AnkerCharger(devices[0].address)
 
     try:
-        print(f"Connecting to {devices[0].address}...")
         await charger.connect()
         await charger.perform_handshake()
 
@@ -109,7 +107,6 @@ async def monitor_command(args):
     charger = AnkerCharger(devices[0].address)
 
     try:
-        print(f"Connecting to {devices[0].address}...")
         await charger.connect()
         await charger.perform_handshake()
 
