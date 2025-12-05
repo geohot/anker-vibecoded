@@ -2,6 +2,8 @@
 
 A Python tool for connecting to and monitoring Anker Prime power banks via Bluetooth LE.
 
+lol this is vibecoded so it barely works. it's all just from https://github.com/atc1441/Anker_Prime_BLE_hacking but it doesn't seem to work with my Anker devices. was fun to watch Claude try though.
+
 ## Features
 
 - 🔍 Scan for Anker Prime devices
