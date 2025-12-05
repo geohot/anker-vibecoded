@@ -1,0 +1,7 @@
+# Anker Prime BLE Tool Requirements
+
+# Bluetooth Low Energy library
+bleak>=0.20.0
+
+# Cryptography library
+pycryptodome>=3.20.0
