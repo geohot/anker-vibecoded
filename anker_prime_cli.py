@@ -23,7 +23,9 @@ async def scan_command(args):
     for idx, device in enumerate(devices, 1):
         print(f"{idx}. {device.name}")
         print(f"   Address: {device.address}")
-        print(f"   RSSI: {device.rssi} dBm")
+        rssi = getattr(device, 'rssi', None)
+        if rssi is not None:
+            print(f"   RSSI: {rssi} dBm")
         print()
 
 async def info_command(args):
